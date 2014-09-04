@@ -1,4 +1,4 @@
-wilson1993.github-io
+wilson1993.github.io
 ====================
 
 my personal website
