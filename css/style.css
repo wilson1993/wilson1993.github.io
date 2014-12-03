@@ -1,21 +1,81 @@
-.wrapper {
-    border: 1px solid red;
-    margin: 0 auto;
-    width: 960px;
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+
+body {
+    font-family: 'Rokkitt', serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
 
+banner {
+    max-width: 700px;
+    i
+        
+    
+}
 
+.wrapper {
+    max-width:960px;
+    margin: 0 auto;
+    
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    width:100%
+    
+}
+
+img a {
+    margin-left: px;
+}
+div.banner  {
+    text-align: center;
+}
+
+footer {
+    clear:both;
+    color: #555D5E;
+    width: 100%;
+    max-width: 960px;
+    text-align:center;
+    
+    
+}
+footer ul {
+    list-style-type: none;
+}
+footer a {
+    margin-left: auto;
+}
 nav {
-    width: 75%;
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    }
+    color: #555D5E;
+}
 nav a {
-    margin: 55px;
+    border-bottom: 4px sollid #ffffff;
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+}
+nav a:hover {
+    border-bottom: 3px solid blue;
+}
+
+@media (max-width: 600px) {
+    
+    .banner, .half, .third {
+        width: 100%;
     }
-h2 {
     
-    
+}
+
+h1 {
+    background-color: #91C6A1;
+    color: #ffffff;
+
     
