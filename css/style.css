@@ -1,0 +1,21 @@
+.wrapper {
+    border: 1px solid red;
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+
+nav {
+    width: 75%;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    }
+nav a {
+    margin: 55px;
+    }
+h2 {
+    
+    
+    
