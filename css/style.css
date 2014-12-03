@@ -3,6 +3,8 @@
 
 body {
     font-family: 'Rokkitt', serif;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,6 +40,13 @@ div.banner  {
     text-align: center;
 }
 
+div.footer {
+    width: 100%;
+    text-align:inherit;
+    padding-left: 20%;
+    align-self: stretch;
+
+}
 footer {
     clear:both;
     color: #555D5E;
@@ -49,9 +58,11 @@ footer {
 }
 footer ul {
     list-style-type: none;
+    text-align:center;
 }
 footer a {
     margin-left: auto;
+    text-align:center;
 }
 nav {
     color: #555D5E;
